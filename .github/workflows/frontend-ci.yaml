@@ -79,6 +79,10 @@ jobs:
       - name: Install dependencies
         working-directory: starter/frontend
         run: npm ci
+      
+      - name: Build frontend
+        working-directory: starter/frontend
+        run: npm run build
 
       - name: Build Docker image
         working-directory: starter/frontend
