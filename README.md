@@ -6,6 +6,7 @@ The frontend displays the list of movies and allows users to view movie details.
 
 ### Backend API
 http://a13b55fe164414a2b890cc4348cf3a73-221351076.us-east-1.elb.amazonaws.com/movies
+
 The backend API returns the list of movies successfully.
 
 ### CI/CD Workflows
